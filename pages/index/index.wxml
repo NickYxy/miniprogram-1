@@ -1,1 +1,4 @@
 <view>{{info}}</view>
+<view>{{randomNum1 >=5 ? 'bigger' : 'smaller'}}</view>
+
+<button type="primary" bind:tap="btnTapHandler">按钮</button>
