@@ -6,7 +6,13 @@ Page({
 		cnt : 1,
 		msg: '你好',
 		type: 3,
-		flag:false
+		flag:false,
+		arr1:['Apple', 'Banana','Pear'],
+		userList: [
+			{id:1, name: '小红'},
+			{id:2, name: '小蓝'},
+			{id:3, name: '小黑'}
+		]
 	},
 
 	btnTapHandler(e) {
