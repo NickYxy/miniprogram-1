@@ -4,7 +4,9 @@ Page({
 		//imgSrc: '/image/B-1.jpg',
 		randomNum1: Math.random().toFixed(2) * 10,
 		cnt : 1,
-		msg: '你好'
+		msg: '你好',
+		type: 3,
+		flag:false
 	},
 
 	btnTapHandler(e) {

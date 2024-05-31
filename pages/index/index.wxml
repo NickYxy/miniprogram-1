@@ -7,3 +7,18 @@
 <input bindinput="inputHandler"/>
 
 <input value="{{msg}}" bindinput="iptHandler" class="ipt2"/>
+
+<view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type === 2}}">女</view>
+<view wx:else>保密</view>
+
+
+
+<view wx:if="{{!flag}}">wx:if以动态创建和移除元素的方式，控制元素的展示和隐藏</view>
+<view hidden="{{flag}}">hidden以切换样式的方式（display：none、block），控制元素的展示和隐藏</view> 
+<block wx:if="{{true}}">
+	<view>view1</view>
+	<view>view2</view>
+	<view>view3</view>
+</block>
+<view hidden="{{flag}}">条件为真时隐藏</view>
