@@ -2,3 +2,8 @@
 <view>{{randomNum1 >=5 ? 'bigger' : 'smaller'}}</view>
 
 <button type="primary" bind:tap="btnTapHandler">按钮</button>
+<button type="primary" bind:tap="changeNum">加一</button>
+<button type="primary" bind:tap="btnTap2" data-info="{{5}}">加二</button>
+<input bindinput="inputHandler"/>
+
+<input value="{{msg}}" bindinput="iptHandler" class="ipt2"/>
