@@ -1,6 +1,8 @@
+@import "/common/common.wxss";
+
 input {
 	border: 1px solid #e61b1b;
 	padding: 5px;
 	margin: 5px;
-	border-radius: 3px;
+	border-radius: 3px;	
 }

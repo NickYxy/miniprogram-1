@@ -27,4 +27,4 @@
 	索引是：{{idx}}, item项是：{{itemName}}
 </view>
 
-<view wx:for="{{userList}}" wx:key="id">{{item.name}}</view>
+<view wx:for="{{userList}}" wx:key="id" class="userName">{{item.name}}</view>
