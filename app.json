@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/message/message",
+    "pages/contact/contact",
     "pages/index/index",
     "pages/test/test",
     "pages/logs/logs"
@@ -12,6 +15,28 @@
     "backgroundColor": "#fff",
     "backgroundTextStyle":"dark",
     "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "image/home-active.jpg",
+        "iconPath": "image/home.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "selectedIconPath": "image/message-active.jpg",
+        "iconPath": "image/message.jpg",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "selectedIconPath": "image/contact-active.jpg",
+        "iconPath": "image/contact.jpg",
+        "text": "联系人"
+      }
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",
