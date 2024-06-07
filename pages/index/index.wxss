@@ -6,3 +6,11 @@ input {
 	margin: 5px;
 	border-radius: 3px;	
 }
+
+view {
+	background-color: lightpink;
+}
+
+view:nth-child(1) {
+	background-color: lightblue;
+}
